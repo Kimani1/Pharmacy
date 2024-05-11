@@ -1,4 +1,3 @@
-# pharmacy_cli.py
 from tabulate import tabulate
 from pharmacy_db_manager import PharmacyDBManager
 
@@ -34,7 +33,7 @@ class PharmacyCLI:
                 break
             else:
                 print("Invalid choice. Please try again.")
-            print("\n" * 3)  # Add space after displaying data
+            print("\n" * 3)  
 
     def display_company_name(self):
         print("\nGETWELL PHARMACY")
