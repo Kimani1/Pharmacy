@@ -18,8 +18,14 @@ Welcome to the Getwell Pharmacy Management System! This system is designed to he
 
 ## Installation
 
-1. Clone this repository to your local machine:
+1. Clone the repository to your local machine:
+  ```bash
+ git clone https://github.com/Kimani1/Pharmacy.git
+  ```
 2. Navigate to the project directory:
+    ```bash
+   cd Pharmacy
+      ```
 3. Install the required dependencies:
 
 ## Usage
