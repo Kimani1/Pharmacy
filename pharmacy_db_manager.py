@@ -33,8 +33,6 @@ class PharmacyDBManager:
                                 FOREIGN KEY (patient_id) REFERENCES patients(id)
                             )''')
 
-        # Add more table creation logic for other entities if needed
-
     def create_medication(self, name, medication_type, quantity, price):
         self.cursor.execute('''INSERT INTO medications (name, type, quantity, price) 
                                VALUES (?, ?, ?, ?)''', (name, medication_type, quantity, price))
